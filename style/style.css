@@ -2,7 +2,10 @@
 
 
 /* Navbar */
-
+.navbar {
+    box-shadow: 0 .5rem .8rem rgba(0, 0, 0, .2);
+    width: 100%;
+  }
 
 
 /* Carousel */
