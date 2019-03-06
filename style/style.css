@@ -24,7 +24,9 @@
 
 
 /* Fonts */
-
+p {
+  font-family: 'Space Mono', monospace;
+}
 
 
 /* Titles * /
