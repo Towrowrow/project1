@@ -1,59 +1,3 @@
-<<<<<<< HEAD
-
-
-h1,
-h2,
-h3
-{
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-}
-p {
-  font-family: 'Space Mono', monospace;
-}
-/* Navbar */
-.navbar {
-    box-shadow: 0 .5rem .8rem rgba(0, 0, 0, .2);
-    width: 100%;
-  }
-
-
-/* Carousel */
-
-
-
-
-
-/* Footer */
-
-
-
-/* Fonts */
-
-
-
-/* Titles * /
-
-
-/* Jumbotron*/
-.bg-jumbo {
-  background: url("../images/wil-stewart-23388-unsplash.jpg") no-repeat fixed top;
-}
-
-.height-vh {
- position: relative;
-  margin:0;
-  padding:0;
-  margin-top: 0;
-  height: 100vh;
-}
-
-.center-element {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-=======
 
 
 /* Navbar */
@@ -117,4 +61,3 @@ body
 {
   font-family: 'Space Mono', monospace;
 }
->>>>>>> c947750a714e8e42233152efe0a13bd126d8605c
