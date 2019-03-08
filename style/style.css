@@ -1,18 +1,5 @@
 
 
-/* Navbar */
-.navbar {
-    box-shadow: 0 .5rem .8rem rgba(0, 0, 0, .2);
-    width: 100%;
-  }
-  .navbar .brand { 
-    max-height: 40px;
-    max-width: 30%; 
-    overflow: visible;
-    padding-top: 0;
-    padding-bottom: 0; 
-}
-
 /* Carousel */
 
 
@@ -46,7 +33,6 @@ font-size: 24px;
 }
 .card-header {
   background-color :#162955;
-  /* background: url('../images/dark-honeycomb/dark-honeycomb.png'); */
   color :white;
  
 }
@@ -87,9 +73,39 @@ h1, h2, h3, h4, h5{
   
 }
 
-body
+/* body
 {
  
   font-family: 'Space Mono', monospace;
   background: url('../images/dark-honeycomb/dark-honeycomb.png');
-}
+} */
+
+header {
+  position: relative;
+  background-color: black;
+  height: vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  } 
+  
+  header .container {
+  top: 25vh;
+  position: relative;
+  z-index: 2;
+  } 
+
+  .navbar {
+    background-color: #162955;
+    box-shadow: 0 .5rem .8rem rgba(0, 0, 0, .2);
+    width: 100%;
+    }
+ .carou{
+      width: 1024px;
+      height: 451px;
+  }
+  .carousel-caption >p{
+    color:white;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  }
+  
