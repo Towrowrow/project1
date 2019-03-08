@@ -1,95 +1,45 @@
 
-
-/* Carousel */
-
-
-
-
-
-/* Footer */
-
-
-
-/* Fonts */
-
- /* color: #162955; */
-p {
+.p-remi {
   font-family: 'Space Mono', monospace;
- 
   color :#162955;
   font-size:20px;
 }
-a {
+.a-remi {
   font-size:18px;
 }
 
-
-/* Card */
-.card-text{
+.card-text-remi{
   font-size: 16px;
 }
-.media-body{
+.media-body-remi{
 font-size: 24px;
 }
-.card-header {
+.card-header-remi {
   background-color :#162955;
-  color :white;
- 
+   color :white;
+  width: 100%;
+  margin:0%;
+  text-align: center;
 }
-.card{
+.card-remi{
   border-style:solid ;
   border-color:  #162955;
 
 }
 
-/* Titles * /
-
-
-/* Jumbotron*/
-.bg-jumbo {
-  background: url("../images/wil-stewart-23388-unsplash.jpg") no-repeat fixed top;
-}
-
-.height-vh {
- position: relative;
-  margin:0;
-  padding:0;
-  margin-top: 0;
-  height: 100vh;
-}
-
-.center-element {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* footer */
-
-h1, h2, h3, h4, h5{
+.h1-r, .h2-r, .h3-r, .h4-r, .h5-r{
   font-family: 'ZCOOL QingKe HuangYou', cursive;
-  
-  
 }
 
-/* body
-{
- 
-  font-family: 'Space Mono', monospace;
-  background: url('../images/dark-honeycomb/dark-honeycomb.png');
-} */
-
-header {
+.headerRemi {
   position: relative;
   background-color: black;
-  height: vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
   } 
   
-  header .container {
+  .header .container {
   top: 25vh;
   position: relative;
   z-index: 2;
@@ -104,7 +54,35 @@ header {
       width: 1024px;
       height: 451px;
   }
-  .carousel-caption >p{
+  .carousel-caption > .p-remi{
     color:white;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   }
+
+
+/* FOOTER */ 
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.social {
+  -webkit-transform: scale(0.8);
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+.page-footer {
+  background-color: #162955; 
+}
+.footer-copyright {
+  font-family: 'Space Mono', monospace;
+  color: rgb(224, 141, 45);
+}
+.footer-copyright a {
+  color: rgb(224, 141, 45);
+}
+
