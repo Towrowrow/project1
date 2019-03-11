@@ -1,5 +1,5 @@
 
-.p-remi {
+.p-remi,h5 {
   font-family: 'Space Mono', monospace;
   color :##04021B;
   font-size:20px;
@@ -95,21 +95,6 @@ font-size: 24px;
   color: rgb(224, 141, 45);
 }
 
-ion-icon:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  }
-  ion-icon {
-  -webkit-transform: scale(0.8);
-  /* Browser Variations: */
-  
-  -moz-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  }
   .page-footer {
   background-color: #04021B; 
   }
@@ -120,3 +105,18 @@ ion-icon:hover {
   .footer-copyright a {
   color: white;
   }
+  .page-footer {
+    background-color: #04021B; 
+    color:white;
+    }
+    .nav-link {
+      color:blue;
+      font-weight: 800;
+      }
+      .nav-link:hover {
+      color: #FFF;
+      }
+      
+      .nav-item:hover {
+      color: #FFF;
+      }
