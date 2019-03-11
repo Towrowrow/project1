@@ -11,8 +11,17 @@ body
   font-family: 'Space Mono', monospace;
 }
 
+.nav-link {
+  color:blue;
+  font-weight: 800;
+}
+.nav-link:hover {
+  color: #fff;
+}
 
-
+.nav-item:hover {
+  color: #fff;
+}
 /* Header Vidéo */
 
 .header-landpage {
@@ -51,7 +60,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.3;
   z-index: 1;
 }
 
@@ -60,7 +69,7 @@ header .overlay {
 /* Navbar */
 
 .navbar {
-  background-color: #162955;
+  background-color: #04021b;
   box-shadow: 0 .5rem .8rem rgba(0, 0, 0, .2);
   width: 100%;
 }
