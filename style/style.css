@@ -124,7 +124,7 @@ p {
   height: 135px;
   margin: 0 auto;
   padding: 5px;
-  border: 1px solid #ddd;
+  border: 1px solid blue;
   border-radius: 50%;
 }
 
@@ -145,14 +145,7 @@ p {
   -o-transition-duration: 0.5s;
 }
 .page-footer {
-  background-color: #162955; 
-}
-.footer-copyright {
-  font-family: 'Space Mono', monospace;
-  color: rgb(224, 141, 45);
-}
-.footer-copyright a {
-  color: rgb(224, 141, 45);
+  background-color: #04021b; 
 }
 
 
@@ -222,6 +215,9 @@ p {
   transform: scale(1.1);
 }
 
-/* testimonials 2 */
+.page-footer {
+  background-color: #04021B; 
+  color:white;
+  }
 
 
