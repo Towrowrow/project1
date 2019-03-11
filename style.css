@@ -1,16 +1,14 @@
-.navbar {
-  background-color: #162955;
-  box-shadow: 0 .5rem .8rem rgba(0, 0, 0, .2);
-  width: 100%;
-}
-
-.navbar .brand {
-  max-height: 40px;
-  max-width: 30%;
-  overflow: visible;
-  padding-top: 0;
-  padding-bottom: 0;
-}
+.nav-link {
+  color:blue;
+  font-weight: 800;
+  }
+  .nav-link:hover {
+  color: #FFF;
+  }
+  
+  .nav-item:hover {
+  color: #FFF;
+  }
 
 /* Fonts */
 
