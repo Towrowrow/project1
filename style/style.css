@@ -1,7 +1,7 @@
 
 .p-remi {
   font-family: 'Space Mono', monospace;
-  color :#162955;
+  color :##04021B;
   font-size:20px;
 }
 .a-remi {
@@ -15,15 +15,24 @@
 font-size: 24px;
 }
 .card-header-remi {
-  background-color :#162955;
+  background-color :#04021B;
    color :white;
   width: 100%;
   margin:0%;
   text-align: center;
 }
+.card-header-remi-2 {
+  background-color :#04021B;
+  color :white;
+  width: 100%;
+  margin:0%;
+  text-align: center;
+  align-items: center;
+}
+
 .card-remi{
   border-style:solid ;
-  border-color:  #162955;
+  border-color:  #04021B;
 
 }
 
@@ -46,7 +55,7 @@ font-size: 24px;
   } 
 
   .navbar {
-    background-color: #162955;
+    background-color: #04021B;
     box-shadow: 0 .5rem .8rem rgba(0, 0, 0, .2);
     width: 100%;
     }
@@ -86,3 +95,28 @@ font-size: 24px;
   color: rgb(224, 141, 45);
 }
 
+ion-icon:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  }
+  ion-icon {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  }
+  .page-footer {
+  background-color: #04021B; 
+  }
+  .footer-copyright {
+  font-family: 'Space Mono', monospace;
+  color: white;
+  }
+  .footer-copyright a {
+  color: white;
+  }
