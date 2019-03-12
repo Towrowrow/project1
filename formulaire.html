@@ -12,51 +12,71 @@
     <!--<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Space+Mono|ZCOOL+QingKe+HuangYou" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Hello World!</title>
+    <title>Wild Space School</title>
 </head>
 
 
 <body>
 
-
-
-    <header>
+    <header class="header-landpage">
         <!-- NAVBAR START -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-ok-texte2.png">
+                <span class="sr-only"></a>
+
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
+                <ul class="navbar-nav ml-auto d-flex justify-content-end">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
+                            NOS FORMATIONS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Développeur d'applications spatiales</a>
+                            <a class="dropdown-item" href="#">Space Analyst</a>
+                            <a class="dropdown-item" href="#">Prépa Intergalactique</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Notre pédagogie</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="formulaire.html">INSCRIPTION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="article.html">ARTICLES</a>
+                    </li>
+
+
+                </ul>
+                <ul class="navbar-nav nav-flex-icons" style="color:blue">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <ion-icon name="logo-twitter" size="large"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <ion-icon name="logo-facebook" size="large"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <ion-icon name="logo-youtube" size="large"></ion-icon>
+                        </a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
         <!-- NAVBAR END -->
@@ -65,10 +85,10 @@
     <!-- SECTION1 PHOTO-->
     <section>
         <img src="https://images.unsplash.com/photo-1541715091751-86f3c80673a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
-            class="img-fluid" style="width: 100%; height: 40rem;" alt="Responsive image">
+            class="img-fluid" style="width: 100%; height: 25rem;" alt="Responsive image">
         <div class="card-img-overlay">
             <div class="container">
-                <h1 class="textimg">REJOINS-NOUS !</h1>
+                <h1 class="textimgagathe">REJOINS-NOUS !</h1>
             </div>
         </div>
     </section>
@@ -77,11 +97,11 @@
     <!-- SECTION2 A PROPOS-->
     <section>
         <div class="container">
-            <h1>A PROPOS </h1>
+            <h1 class="h1agathe">A PROPOS </h1>
         </div>
         <div class="container">
 
-            <p>La Space Code School est la première formation en informatique dans l'espace !!! <br />
+            <p class="pagathe">La Wild Space School est la première formation en informatique dans l'espace !!! <br />
                 La formation est
                 entièrement gratuite,
                 ouverte à toutes et à tous sans condition de diplôme et accessible aux 18-230 ans.
@@ -93,19 +113,20 @@
                 terrienne fondée dans les années 2000 (années terriennes). Pour former les meilleurs talents
                 galactiques
                 de demain,
-                la Space Code School met à disposition les meilleures infrastructures sur la Lune et bientôt Mars
+                la Wild Space School met à disposition les meilleures infrastructures sur la Lune et bientôt Mars
                 (Voie
                 Lactée Valley).</p>
         </div>
         <div class="container">
             <div class="card-deck" style="justify-content: center;">
                 <div class="card border-light" style="max-width: 20rem;">
-                    <img src="https://i.postimg.cc/kGxCgBF9/picto1.png" class="card-img-top" alt="hardwork"
-                        style="width: 10rem;">
+                    <img src="https://i.postimg.cc/kGxCgBF9/picto1.png" class="card-img-top cardimgtopagathe"
+                        alt="hardwork" style="width: 10rem;">
 
                     <div class="card-body">
-                        <h5 class="card-title">Motivé & Autonome</h5>
-                        <p class="card-text">La formation de la Space Code School pour devenir développeur lunaire est
+                        <h5 class="card-title h5agathe">Motivé & Autonome</h5>
+                        <p class="card-text pagathe">La formation de la Wild Space School pour devenir développeur
+                            lunaire est
                             intensive :
                             en 3 jours dans l'espace, tu apprendras autant qu’en 5 mois sur Terre ! Les candidats
                             doivent donc démontrer une grande motivation,
@@ -114,11 +135,11 @@
                     </div>
                 </div>
                 <div class="card border-light" style="max-width: 20rem;">
-                    <img src="https://i.postimg.cc/GhCrSxdp/picto2.png" class="card-img-top" alt="spaceship"
-                        style="width: 10rem;">
+                    <img src="https://i.postimg.cc/GhCrSxdp/picto2.png" class="card-img-top cardimgtopagathe"
+                        alt="spaceship" style="width: 10rem;">
                     <div class=" card-body">
-                        <h5 class="card-title">Aventurier</h5>
-                        <p class="card-text">Tu es un aventurier dans l'âme : l'inconnu, les rencontres, et la
+                        <h5 class="card-title h5agathe">Aventurier</h5>
+                        <p class="card-text pagathe">Tu es un aventurier dans l'âme : l'inconnu, les rencontres, et la
                             découverte ne te font pas peur.
                             Tu aimes les sensations forte? Tu partiras à bord d'une de nos fusées et y
                             vivras durant le cursus. En plus de découvrir un nouveau métier,
@@ -126,11 +147,12 @@
                     </div>
                 </div>
                 <div class="card border-light" style="max-width: 20rem;">
-                    <img src="https://i.postimg.cc/v89bzNRj/picto3.png" class="card-img-top" alt="solidarity"
-                        style="width: 10rem;">
+                    <img src="https://i.postimg.cc/v89bzNRj/picto3.png" class="card-img-top cardimgtopagathe"
+                        alt="solidarity" style="width: 10rem;">
                     <div class=" card-body">
-                        <h5 class="card-title">Team Player</h5>
-                        <p class="card-text">Devenir développeur intergallactique, c’est collaborer de ses collègues.
+                        <h5 class="card-title h5agathe">Team Player</h5>
+                        <p class="card-text pagathe">Devenir développeur intergallactique, c’est collaborer de ses
+                            collègues.
                             Durant 3 jours lunaires de formation, tu vas vivre une expérience forte avec les autres
                             élèves.
                             Tu seras en effet amené à collaborer étroitement avec les autres élèves venant d'autres
@@ -145,6 +167,7 @@
     <!-- SECTION2 A PROPOS END-->
 
     <!-- SECTION3 PHOTOFOND-->
+
     <section>
 
         <!-- SECTION4 FORMULAIRE-->
@@ -154,25 +177,25 @@
                 alt="moon" style="width: 100%; height: 40rem; opacity:0,8; ">
             <div class="card-img-overlay">
                 <div class="container">
-                    <h1 class="card-title">NOUS CONTACTER</h1>
+                    <h1 class="card-title h1agathe">NOUS CONTACTER</h1>
                 </div>
                 <div class="container" style="max-width: 50rem">
-                    <p class="card-text">
+                    <p class="card-text pagathe">
                         <form>
 
-                            <div class="form-group">
+                            <div class="form-group formgroupagathe">
                                 <label for="exampleFormControlInput1">Ton nom</label>
                                 <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
                             </div>
 
 
-                            <div class="form-group">
+                            <div class="form-group formgroupagathe">
                                 <label for="exampleFormControlInput1">Ton email</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1"
                                     placeholder="nom@exemple.com">
                             </div>
 
-                            <div class="form-group">
+                            <div class="form-group formgroupagathe">
                                 <label for="exampleFormControlSelect1">Ta planète</label>
                                 <select class="form-control" id="exampleFormControlSelect1">
                                     <option>Terre</option>
@@ -185,12 +208,12 @@
                                     <option>Neptune</option>
                                 </select>
                             </div>
-                            <div class="form-group">
+                            <div class="form-group formgroupagathe">
                                 <label for="exampleFormControlTextarea1">Ton
                                     message</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-light">Submit</button>
+                            <button type="submit" class="btn btn-light btnagathe">Launch</button>
                         </form>
                     </p>
                 </div>
@@ -198,11 +221,248 @@
         </div>
     </section>
 
-
-
-
     <!-- SECTION4 FORMULAIRE END-->
     <!-- SECTION3 PHOTOFOND END-->
+    <div class="container">
+
+        <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Nos Campus</h1>
+
+        <hr class="mt-2 mb-5">
+
+        <div class="row text-center text-lg-left">
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail"
+                        src="https://images.unsplash.com/photo-1544715905-bfee662e5678?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80/400x300"
+                        alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail"
+                        src="https://images.unsplash.com/photo-1469199667817-594accd1bdc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80/400x300"
+                        alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail"
+                        src="https://images.unsplash.com/photo-1492446190781-58ac4285911d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=994&q=80/400x300"
+                        alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail"
+                        src="https://images.unsplash.com/photo-1544980919-e17526d4ed0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80/400x300"
+                        alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail"
+                        src="https://images.unsplash.com/photo-1457327289196-f38b88d97147?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80/400x300"
+                        alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail"
+                        src="https://images.unsplash.com/photo-1547575542-c56648365a4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80/400x300"
+                        alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail"
+                        src="https://images.unsplash.com/photo-1531258397587-3dbe65356ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80/400x300"
+                        alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail"
+                        src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80/400x300"
+                        alt="">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="mt-2 mb-5">
+
+    </div>
+    <!-- SECTION5 FOOTER-->
+
+    <footer class="page-footer font-small stylish-color-dark pt-4">
+
+        <div class="row text-center d-flex justify-content-center pt-3 mb-2">
+            <div class="col-md-12 flex-center">
+                <ion-icon size="large" name="logo-facebook" ; style="color:white;"></ion-icon>
+
+                <ion-icon size="large" name="logo-instagram" ; style="color:white;"></ion-icon>
+
+                <ion-icon size="large" name="logo-linkedin" ; style="color:white;"></ion-icon>
+
+                <ion-icon size="large" name="logo-twitter" ; style="color: white;"></ion-icon>
+
+                <ion-icon size="large" name="logo-youtube" ; style="color:white;"></ion-icon>
+            </div>
+        </div>
+        </div>
+
+
+        <!-- Footer -->
+
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos formations </h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" style="color:white;">Développement Web</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">Développement humain</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">Cyborg2.0</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">Bio-Ingénierie</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Liens</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <h6 class="text-uppercase font-weight-bold h6agathe">
+                                <a href=" #" style="color:white;">Accueil</a>
+                            </h6>
+                        </li>
+                        <li>
+                            <h6 class="text-uppercase font-weight-bold h6agathe">
+                                <a href="#" style="color: white;">Articles</a>
+                            </h6>
+                        </li>
+                        <li>
+                            <h6 class="text-uppercase font-weight-bold h6agathe">
+                                <a href="#" style="color: white;">A Propos</a>
+                            </h6>
+                        </li>
+                        <li>
+                            <h6 class="text-uppercase font-weight-bold h6agathe">
+                                <a href="#" style="color:white;">Contact</a>
+                            </h6>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos campus</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" style="color:white;">La Lune</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">Mars</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">TZK-0000110001</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">Proxima Centaury</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Remerciements</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" style="color:white;">Complot Secret pour la pub</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">SpaceX</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">Sylvain Durif</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">Les codeurs de l'espaces</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <hr>
+
+        <!-- Call to action -->
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+                <h5 class="mb-1">Abonne toi !</h5>
+            </li>
+            <li class="list-inline-item">
+                <a href="#!" class="btn btn-danger btn-rounded">POUCE BLEU</a>
+            </li>
+        </ul>
+        <!-- Call to action -->
+
+        <hr>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="#"> Wild Space School.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- SECTION5 FOOTER END-->
+
 
 
 
@@ -217,6 +477,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
 </body>
 
 </html>

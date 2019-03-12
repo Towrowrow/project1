@@ -9,10 +9,11 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
-  <title>Hello, world!</title>
+    
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+  <title>The Wild Space School</title>
 </head>
 
 
@@ -20,116 +21,94 @@
 
 
 
-  <header>
+  <header class="header-landpage">
     <!-- NAVBAR START -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#"><h1>The Wild Space School</h1></a>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo-ok-texte2.png">
+       <span class="sr-only"></a>
+
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto justify-content-end">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+        <ul class="navbar-nav ml-auto d-flex justify-content-end">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              NOS FORMATIONS
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Développeur d'applications spatiales</a>
+              <a class="dropdown-item" href="#">Space Analyst</a>
+              <a class="dropdown-item" href="#">Prépa Intergalactique</a>
+              <!-- <div class="dropdown-divider"></div> -->
+              <a class="dropdown-item" href="#">Notre pédagogie</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="formulaire.html">INSCRIPTION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="article.html">ARTICLES</a>
+          </li>
+         
+
+        </ul>
+        <ul class="navbar-nav nav-flex-icons" style="color:blue">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><ion-icon name="logo-facebook" size="large"></ion-icon></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><ion-icon name="logo-youtube" size="large"></ion-icon></a>
           </li>
         </ul>
       </div>
     </nav>
     <!-- NAVBAR END -->
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="images/milky-way.mp4" type="video/mp4">
+    </video>
 
+    <!-- <div class="w-100"> -->
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">Futurs Space Wilders, bienvenue!</h1>
+          <p class="lead mb-0 display-4">Viens coder la tête dans les étoiles...</p>
+          <div><a class="btn btn-danger btn-lg p-3 m-5" href="formulaire.html" role="button">DECROCHE TON PASS POUR LA LUNE</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+    </div>
+    </div>
   </header>
 
-<!-- test video -->
-<!-- <div class="position-relative">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
 
 
-
-
-      </div>
-    </div>
-  </div> -->
-
-
-<!-- fin test-->
-
-  <!-- Début Carousel -->
-
-
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="http://lorempixel.com/output/nature-q-c-1141-480-3.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="http://lorempixel.com/output/business-q-c-1141-480-7.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="http://lorempixel.com/output/business-q-c-1141-480-4.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-  <!-- Fin carousel-->
-
-
-  <section class="bg-jumbo height-vh">
-    <div class="container pt-5 pb-5 align-middle">
-
-      <!-- Début Jumbotron-->
-      <div class="jumbotron center-element">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </div>
-      <!-- fin jumbotron-->
-      <div class="container">
-  </section>
-  <!-- Fin appel à candidature -->
-
-<!-- Les derniers articles -->
-  <section class="height-vh">
-    <div class="container">
-      <h2> Les derniers articles</h2>
+  <!-- articles -->
+  <section>
+    <div class="container pt-5">
+      <div class="display-4 pb-3">Les derniers articles</div>
       <!-- cards deck-->
 
       <div class="card-group">
         <div class="card">
-          <img src="http://lorempixel.com/output/city-q-c-400-300-3.jpg" class="card-img-top" alt="...">
+          <img src="https://images.unsplash.com/photo-1457364983758-510f8afa9f5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=300" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            <h5 class="card-title">Code sans gravité!</h5>
+            <p class="card-text"><img src="/open-iconic/svg/arrow-bottom.svg">This is a wider card with supporting text below as a natural lead-in to additional
               content. This content is a little bit longer.</p>
           </div>
           <div class="card-footer">
@@ -137,7 +116,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="http://lorempixel.com/output/city-q-c-400-300-2.jpg" class="card-img-top" alt="...">
+          <img src="https://images.unsplash.com/photo-1531498860502-7c67cf02f657?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=300" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -147,7 +126,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="http://lorempixel.com/output/city-q-c-400-300-10.jpg" class="card-img-top" alt="...">
+          <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=300" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">400 x300 images - card with supporting text below as a natural lead-in to additional
@@ -167,147 +146,235 @@
   </div>
 
   </div>
-<!--Fin derniers articles-->
+  <!--Fin articles-->
 
 
-<!-- Les témoignages-->
-
-<section class="text-left my-3 p-1 height-vh">
-<div class="container">
-    <!-- Section heading -->
-    <h2 class="h1-responsive font-weight-bold my-5">Témoignages des futurs Space Wilders</h2>
-    <!-- Section description -->
-    <p class="dark-grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
-      eum porro a pariatur veniam.</p>
-  
-    <!-- Grid row -->
-    <div class="row">
-  
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-        <!--Card-->
-        <div class="card testimonial-card pt-4">
-          <!--Background color-->
-          <div class="card-up info-color"></div>
-          <!--Avatar-->
-          <div class="avatar mx-auto white">
-            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
-          </div>
-          <div class="card-body">
-            <!--Name-->
-            <h4 class="font-weight-bold mb-4">John Doe</h4>
-            <hr>
-            <!--Quotation-->
-            <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet eos
-              adipisci, consectetur adipisicing elit.</p>
-          </div>
-        </div>
-        <!--Card-->
-      </div>
-      <!--Grid column-->
-  
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-        <!--Card-->
-        <div class="card testimonial-card pt-4">
-          <!--Background color-->
-          <div class="card-up blue-gradient">
-          </div>
-          <!--Avatar-->
-          <div class="avatar mx-auto white">
-            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle img-fluid">
-          </div>
-          <div class="card-body">
-            <!--Name-->
-            <h4 class="font-weight-bold mb-4">Anna Aston</h4>
-            <hr>
-            <!--Quotation-->
-            <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Neque cupiditate assumenda in
-              maiores repudiandae mollitia architecto.</p>
-          </div>
-        </div>
-        <!--Card-->
-      </div>
-      <!--Grid column-->
-  
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-6">
-        <!--Card-->
-        <div class="card testimonial-card pt-4">
-          <!--Background color-->
-          <div class="card-up indigo"></div>
-          <!--Avatar-->
-          <div class="avatar mx-auto white">
-            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid">
-          </div>
-          <div class="card-body">
-            <!--Name-->
-            <h4 class="font-weight-bold mb-4">Maria Kate</h4>
-            <hr>
-            <!--Quotation-->
-            <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Delectus impedit saepe officiis
-              ab aliquam repellat rem unde ducimus.</p>
-          </div>
-        </div>
-        <!--Card-->
-      </div>
-      <!--Grid column-->
-  
-    </div>
-    <!-- Grid row -->
-  </div>
-  </section>
-  <!-- fin section témoingoiges -->
+  <!-- Les témoignages-->
 
 
 
-  <!-- Footer -->
 
-  <footer class="bg-dark pt-4 mt-4 text-white container-fluid text-center text-md-left">
-    
-    <div class="container">
+  <section class="py-5 h-100">
+    <div class="container py-5">
       <div class="row">
-        <div class="col-md-4 mb-md-0 mb-3">
-          <ul class="list-unstyled">
-            <li>
-              <a href="" class="text-light">Lien 1</a>
-            </li>
-            <li>
-              <a href="#fellows" class="text-light">Lien 1</a>
-            </li>
-            <li>
-              <a href="#joinTheArmy" class="text-light">Lien 1</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4 mb-md-0 mb-3">
-          <ul class="list-unstyled">
-            <li>
-              <a href="" class="text-light">FAQ</a>
-            </li>
-            <li>
-              <a href="" class="text-light">Reward conditions</a>
-            </li>
-            <li>
-              <a href="" class="text-light">Legal mentions</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4 mb-md-0 mb-3">
-          <ul class="list-unstyled">
-            <li>
-              <a href="Sauron4Ever.com" class="text-light">Sauron4Ever.com</a>
-            </li>
-            <li>
-              <a href="" class="text-light">Follow him also on twitter</a>
-            </li>
-          </ul>
+        <div class="col-md-8 col-center m-auto center-element-testimonial text-center">
+          <div class="display-4 mb-4">Témoignages de Wilders</div>
+          <div id="myCarousel" class="carousel carouselTemoin slide" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="item carousel-item active">
+                <div class="img-box"><img src="images/wilder1.jpg" alt=""></div>
+                <p class="testimonial">J'ai adoré faire mon Space Circus! La Scpace Code School est une super opportunité. Il me tard de rejoindre la base sur la Lune et de coder sans gravité! </p>
+                <p class="overview"><b>Paula Wilson</b>, Future Wilder</p>
+              </div>
+              <div class="item carousel-item">
+                <div class="img-box"><img src="images/wilder2.jpg" alt=""></div>
+                <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi
+                  suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis.
+                  Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+              </div>
+              <div class="item carousel-item">
+                <div class="img-box"><img src="images/wilder3.jpg" alt=""></div>
+                <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam
+                  faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus,
+                  volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <ion-icon name="arrow-dropleft"></ion-icon>
+            </a>
+            <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </footer>
+  </section>
 
+  <!-- fin section témoignages -->
+
+
+    <!-- SECTION5 FOOTER-->
+    <footer class="page-footer font-small stylish-color-dark pt-4">
+
+      <div class="row text-center d-flex justify-content-center pt-3 mb-2">
+      <div class="col-md-12 flex-center">
+      <ion-icon size="large" name="logo-facebook" ; style="color:white;"></ion-icon>
+      
+      <ion-icon size="large" name="logo-instagram" ; style="color:white;"></ion-icon>
+      
+      <ion-icon size="large" name="logo-linkedin" ; style="color:white;"></ion-icon>
+      
+      <ion-icon size="large" name="logo-twitter" ; style="color: white;"></ion-icon>
+      
+      <ion-icon size="large" name="logo-youtube" ; style="color:white;"></ion-icon>
+      </div>
+      </div>
+      </div>
+      
+      
+      <!-- Footer -->
+      
+      
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+      
+      <!-- Grid row -->
+      <div class="row">
+      
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+      
+      <!-- Content -->
+      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos formations </h5>
+      
+      <ul class="list-unstyled">
+      <li>
+      <a href="#" style="color:white;">Développement Web</a>
+      </li>
+      <li>
+      <a href="#" style="color:white;">Développement humain</a>
+      </li>
+      <li>
+      <a href="#" style="color:white;">Cyborg2.0</a>
+      </li>
+      <li>
+      <a href="#" style="color:white;">Bio-Ingénierie</a>
+      </li>
+      </ul>
+      
+      </div>
+      <!-- Grid column -->
+      
+      <hr class="clearfix w-100 d-md-none">
+      
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+      
+      <!-- Links -->
+      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Liens</h5>
+      
+      <ul class="list-unstyled">
+      <li>
+      <h6 class="text-uppercase font-weight-bold h6agathe">
+      <a href=" #" style="color:white;">Accueil</a>
+      </h6>
+      </li>
+      <li>
+      <h6 class="text-uppercase font-weight-bold h6agathe">
+      <a href="#" style="color: white;">Articles</a>
+      </h6>
+      </li>
+      <li>
+      <h6 class="text-uppercase font-weight-bold h6agathe">
+      <a href="#" style="color: white;">A Propos</a>
+      </h6>
+      </li>
+      <li>
+      <h6 class="text-uppercase font-weight-bold h6agathe">
+      <a href="#" style="color:white;">Contact</a>
+      </h6>
+      </li>
+      </ul>
+      
+      </div>
+      <!-- Grid column -->
+      
+      <hr class="clearfix w-100 d-md-none">
+      
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+      
+      <!-- Links -->
+      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos campus</h5>
+      
+      <ul class="list-unstyled">
+      <li>
+      <a href="#" style="color:white;">La Lune</a>
+      </li>
+      <li>
+      <a href="#" style="color:white;">Mars</a>
+      </li>
+      <li>
+      <a href="#" style="color:white;">TZK-0000110001</a>
+      </li>
+      <li>
+      <a href="#" style="color:white;">Proxima Centaury</a>
+      </li>
+      </ul>
+      
+      </div>
+      <!-- Grid column -->
+      
+      <hr class="clearfix w-100 d-md-none">
+      
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+      
+      <!-- Links -->
+      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Remerciements</h5>
+      
+      <ul class="list-unstyled">
+      <li>
+      <a href="#" style="color:white;">Complot Secret pour la pub</a>
+      </li>
+      <li>
+      <a href="#" style="color:white;">SpaceX</a>
+      </li>
+      <li>
+      <a href="#" style="color:white;">Sylvain Durif</a>
+      </li>
+      <li>
+      <a href="#" style="color:white;">Les codeurs de l'espaces</a>
+      </li>
+      </ul>
+      
+      </div>
+      <!-- Grid column -->
+      
+      </div>
+      <!-- Grid row -->
+      
+      </div>
+      <!-- Footer Links -->
+      
+      <hr>
+      
+      <!-- Call to action -->
+      <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+      <h5 class="mb-1">Abonne toi !</h5>
+      </li>
+      <li class="list-inline-item">
+      <a href="#!" class="btn btn-danger btn-rounded">POUCE BLEU</a>
+      </li>
+      </ul>
+      <!-- Call to action -->
+      
+      <hr>
+      
+
+ 
+      
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="#"> WildSpaceSchool.com</a>
+      </div>
+      <!-- Copyright -->
+  
+      </footer>
+
+  <!-- SECTION5 FOOTER END-->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -320,6 +387,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+
 </body>
 
 </html>
