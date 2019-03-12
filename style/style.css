@@ -173,14 +173,14 @@ font-size: 24px;
 }
 .footer-copyright {
   font-family: 'Space Mono', monospace;
-  color: rgb(224, 141, 45);
+  color:white;
 }
 .h6agathe {
   font-family: 'Space Mono', monospace;
-  color: rgb(224, 141, 45);
+  color:white;
 }
 .h6agathe a {
-  color: rgb(224, 141, 45); 
+  color: white; 
 }
 
 .textimgagathe {
