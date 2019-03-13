@@ -265,3 +265,17 @@ font-size: 24px;
 
 .navbar-nav > li > .dropdown-menu { background-color: #04021B; }
 .navbar-nav > li > .dropdown-menu a{color:blue;}
+
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  display:none;
+}
+
+
+.ion-icon-top {
+  font-size: 44px;
+}
