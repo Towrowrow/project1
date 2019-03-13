@@ -14,8 +14,9 @@
 
     <title>Wild Space School</title>
 </head>
-<body>
 
+<body class="bg-clair">
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
 
     <header class="header">
         <!-- NAVBAR START -->
@@ -78,65 +79,71 @@
             </div>
         </nav>
         <!-- NAVBAR END -->
-<!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-2" data-slide-to="1"></li>
-      <li data-target="#carousel-example-2" data-slide-to="2"></li>
-    </ol>
-    <!--/.Indicators-->
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <div class="view">
-          <img class="carou d-block w-100" src="https://images.unsplash.com/photo-1457364887197-9150188c107b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="First slide">
-          <div class="mask rgba-black-light"></div>
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="carou d-block w-100"
+                            src="https://images.unsplash.com/photo-1457364887197-9150188c107b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="First slide">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-r h3-responsive">Voyage</h3>
+                        <p class="p-remi">Quitte la Terre et rejoins nous</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="carou d-block w-100"
+                            src="https://images.unsplash.com/photo-1417577097439-425fb7dec05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
+                            alt="Second slide">
+                        <div class="mask rgba-black-strong"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-r h3-responsive">L'espace</h3>
+                        <p class="p-remi">les mains sur le clavier et la tête dans les étoiles</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="carou d-block w-100"
+                            src="https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80"
+                            alt="Third slide">
+                        <div class="mask rgba-black-slight"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-r h3-responsive">Découverte</h3>
+                        <p class="p-remi">Viens découvrir l'univers du code</p>
+                    </div>
+                </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="a-remi carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="a-remi carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
         </div>
-        <div class="carousel-caption">
-          <h3 class="h3-r h3-responsive">Voyage</h3>
-          <p class="p-remi">Quitte la Terre et rejoins nous</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <!--Mask color-->
-        <div class="view">
-          <img class="carou d-block w-100" src="https://images.unsplash.com/photo-1417577097439-425fb7dec05e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" alt="Second slide">
-          <div class="mask rgba-black-strong"></div>
-        </div>
-        <div class="carousel-caption">
-          <h3 class="h3-r h3-responsive">L'espace</h3>
-          <p class="p-remi">les mains sur le clavier et la tête dans les étoiles</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <!--Mask color-->
-        <div class="view">
-          <img class="carou d-block w-100" src="https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80" alt="Third slide">
-          <div class="mask rgba-black-slight"></div>
-        </div>
-        <div class="carousel-caption">
-          <h3 class="h3-r h3-responsive">Découverte</h3>
-          <p class="p-remi">Viens découvrir l'univers du code</p>
-        </div>
-      </div>
-    </div>
-    <!--/.Slides-->
-    <!--Controls-->
-    <a class="a-remi carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="a-remi carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    <!--/.Controls-->
-  </div>
-  <!--/.Carousel Wrapper-->
-        </header>
-   
+        <!--/.Carousel Wrapper-->
+    </header>
+
     <!-- MAINt -->
     <div class="container mt-5 mb-5 bg-light">
 
@@ -169,13 +176,16 @@
                 <hr>
 
                 <!-- Post Content -->
-                <p class="lead p-remi">Pour la première fois dans l'histoire de l'humanité, apprend le code sans chaussures, et
+                <p class="lead p-remi">Pour la première fois dans l'histoire de l'humanité, apprend le code sans
+                    chaussures, et
                     sans gravité !</p>
 
-                <p class="p-remi">Grace à notre partenaire Elon Musk et sa société SpaceX, la Wild Code School ouvre ses premiers
+                <p class="p-remi">Grace à notre partenaire Elon Musk et sa société SpaceX, la Wild Code School ouvre ses
+                    premiers
                     campus lunaire et martiens !.</p>
 
-                <p class="p-remi">Découvre les nouveautés de ces campus extra-terriens et toi aussi rejoint l'aventure !</p>
+                <p class="p-remi">Découvre les nouveautés de ces campus extra-terriens et toi aussi rejoint l'aventure !
+                </p>
 
                 </br>
                 </br>
@@ -194,7 +204,8 @@
             </br>
             </br>
 
-            <p class="p-remi">Avec l'aide de Elon Musk et de tout ses lutins de l'espace, nous avons établis nos deux premiers
+            <p class="p-remi">Avec l'aide de Elon Musk et de tout ses lutins de l'espace, nous avons établis nos deux
+                premiers
                 campus dans l'espace, le campus Lunaire et le campus Martien</p>
 
             <p class="p-remi">Au programme : toujours du code ! mais le code du futur !</p>
@@ -206,7 +217,8 @@
             <cite title="Source Title">SpaceX notre partenaire logistique</cite>
             </br>
             </br>
-            <p class="p-remi">Au programme pour nos nouvelles sessions : Découvre le SithV.1, le El@nMusk ! deux nouveaux langages de
+            <p class="p-remi">Au programme pour nos nouvelles sessions : Découvre le SithV.1, le El@nMusk ! deux
+                nouveaux langages de
                 programmation orientée objets à la mode sur la région de Proxima centaury et sa périphérie !</p>
             <p class="p-remi"><em>Coté logistique nos écoles sont idéalement situés !</em></p>
 
@@ -217,10 +229,11 @@
 
             </ul>
 
-     
+
             </br>
             </br>
-            <p class="p-remi">Notre premier groupe de Wilder est arrivé hier sur leurs campus ! ils ont découvert qu'ils aller
+            <p class="p-remi">Notre premier groupe de Wilder est arrivé hier sur leurs campus ! ils ont découvert qu'ils
+                aller
                 collaborer avec des sociétés tels que RobertsSpaceIndustry, Entreprise où encore SpaceOpera</p>
             <b> En exclusivité mondial, le premier campus avec à sa tête comme campus manager, une IA venu du futur !
                 venez découvrir SKYNET et sa bienveillance !</b>
@@ -290,10 +303,10 @@
                                     <a class="a-remi" href="#">Archives</a>
                                 </li>
                                 <li>
-                                    <a class="a-remi"href="#">Article précédent</a>
+                                    <a class="a-remi" href="#">Article précédent</a>
                                 </li>
                                 <li>
-                                    <a class="a-remi"href="#">Article suivant</a>
+                                    <a class="a-remi" href="#">Article suivant</a>
                                 </li>
                             </ul>
                         </div>
@@ -301,20 +314,20 @@
                         <div class="col-lg-6 ">
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a class="a-remi"href="#">Réponse à théorie du complot</a>
+                                    <a class="a-remi" href="#">Réponse à théorie du complot</a>
                                 </li>
                                 <li>
-                                    <a class="a-remi"href="#">WCS terrestre</a>
+                                    <a class="a-remi" href="#">WCS terrestre</a>
                                 </li>
                                 <li>
-                                    <a class="a-remi"href="#">Financement</a>
+                                    <a class="a-remi" href="#">Financement</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-<br/>
+            <br />
 
 
 
@@ -328,10 +341,10 @@
                                     <a class="a-remi" href="#">SpaceX</a>
                                 </li>
                                 <li>
-                                    <a class="a-remi"href="#">CNES</a>
+                                    <a class="a-remi" href="#">CNES</a>
                                 </li>
                                 <li>
-                                    <a class="a-remi"href="#">Rick Astley</a>
+                                    <a class="a-remi" href="#">Rick Astley</a>
                                 </li>
                             </ul>
                         </div>
@@ -339,13 +352,13 @@
                         <div class="col-lg-6 ">
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a class="a-remi"href="#">Pr Brown</a>
+                                    <a class="a-remi" href="#">Pr Brown</a>
                                 </li>
                                 <li>
-                                    <a class="a-remi"href="#">W3C</a>
+                                    <a class="a-remi" href="#">W3C</a>
                                 </li>
                                 <li>
-                                    <a class="a-remi"href="#">Impot.gouv</a>
+                                    <a class="a-remi" href="#">Impot.gouv</a>
                                 </li>
                             </ul>
                         </div>
@@ -353,7 +366,7 @@
                 </div>
             </div>
 
-            <br/>
+            <br />
             <!-- Side CARDOUNETTE -->
             <br />
 
@@ -363,8 +376,9 @@
                     src="https://images.unsplash.com/photo-1499532744860-fb7526b66e7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1114&q=80"
                     alt="Card image cap">
                 <div class="card-body">
-                   
-                    <p class="card-text-remi p-remi card-text "> Diminuer vos frais en carburanium, optez pour le co-voiturage spatial !
+
+                    <p class="card-text-remi p-remi card-text "> Diminuer vos frais en carburanium, optez pour le
+                        co-voiturage spatial !
                         profitez de 10% de remise sur vos trajets avec le code "SUDO" chez notre partenaire
                         Blabla-Rocket !
                     </p>
@@ -372,219 +386,248 @@
                 </div>
             </div>
 
-            
-        <br/>    <!-- Side CARDOUNETTE -->
-        
- <div class="card-remi  xs-6 " style="width: max;">
-                <h3 class="h3-r card-header-remi-2 ">Mis en place du nouveau réacteur utilisant comme combustible des Wilders recyclé.<br/></h3>
+
+            <br /> <!-- Side CARDOUNETTE -->
+
+            <div class="card-remi  xs-6 " style="width: max;">
+                <h3 class="h3-r card-header-remi-2 ">Mis en place du nouveau réacteur utilisant comme combustible des
+                    Wilders recyclé.<br /></h3>
                 <img class="card-img-top"
                     src="https://images.unsplash.com/photo-1515272751348-25380c6c1f9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
                     alt="Card image cap">
                 <div class="card-body">
-                   
-                    <p class="card-text-remi p-remi card-text "> Le nouveau réacteur de SpaceX qui seras utilisé pour l'envoie des Wilders dans l'espace, fonctionne avec un nouveau type de carburant, en effet, les Wilders
+
+                    <p class="card-text-remi p-remi card-text "> Le nouveau réacteur de SpaceX qui seras utilisé pour
+                        l'envoie des Wilders dans l'espace, fonctionne avec un nouveau type de carburant, en effet, les
+                        Wilders
                         ayant été déclarés comme pas assez doué, sont recyclé afin de servir de combustible.
                     </p>
                     <a href="#" class=" a-remi btn btn-primary">Acceder à l'article</a>
                 </div>
             </div>
-    </div>
-    <!-- /.row -->
+        </div>
+        <!-- /.row -->
 
     </div>
-</div>
+    </div>
     <!-- /.container -->
 
     <!-- Footer -->
-        <!-- SECTION5 FOOTER-->
+    <!-- SECTION5 FOOTER-->
 
-        <footer class="page-footer font-small stylish-color-dark pt-4">
-                
-                <div class="row text-center d-flex justify-content-center pt-3 mb-2">
-                <div class="col-md-12 flex-center">
+    <footer class="page-footer font-small stylish-color-dark pt-4">
+
+        <div class="row text-center d-flex justify-content-center pt-3 mb-2">
+            <div class="col-md-12 flex-center">
                 <ion-icon size="large" name="logo-facebook" ; style="color:white;"></ion-icon>
-                
+
                 <ion-icon size="large" name="logo-instagram" ; style="color:white;"></ion-icon>
-                
+
                 <ion-icon size="large" name="logo-linkedin" ; style="color:white;"></ion-icon>
-                
+
                 <ion-icon size="large" name="logo-twitter" ; style="color: white;"></ion-icon>
-                
+
                 <ion-icon size="large" name="logo-youtube" ; style="color:white;"></ion-icon>
-                </div>
-                </div>
-                </div>
-       
-             
-<!-- Footer -->
+            </div>
+        </div>
+        </div>
+
+
+        <!-- Footer -->
 
 
         <!-- Footer Links -->
         <div class="container-fluid text-center text-md-left">
-    
-          <!-- Grid row -->
-          <div class="row">
-    
-            <!-- Grid column -->
-            <div class="col-md-2 mx-auto">
-    
-              <!-- Content -->
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos formations </h5>
 
-              <ul class="list-unstyled">
-                    <li>
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos formations </h5>
+
+                    <ul class="list-unstyled">
+                        <li>
                             <a href="#" style="color:white;">Développement Web</a>
-                    </li>
-                    <li>
+                        </li>
+                        <li>
                             <a href="#" style="color:white;">Développement humain</a>
-                    </li>
-                    <li>
+                        </li>
+                        <li>
                             <a href="#" style="color:white;">Cyborg2.0</a>
-                    </li>
-                    <li>
+                        </li>
+                        <li>
                             <a href="#" style="color:white;">Bio-Ingénierie</a>
-                    </li>
-                  </ul>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Liens</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <h6 class="text-uppercase font-weight-bold h6agathe">
+                                <a href="index.html" style="color:white;">Accueil</a>
+                            </h6>
+                        </li>
+                        <li>
+                            <h6 class="text-uppercase font-weight-bold h6agathe">
+                                <a href="article.html" style="color: white;">Articles</a>
+                            </h6>
+                        </li>
+                        <li>
+                            <h6 class="text-uppercase font-weight-bold h6agathe">
+                                <a href="formulaire.html" style="color: white;">A Propos</a>
+                            </h6>
+                        </li>
+                        <li>
+                            <h6 class="text-uppercase font-weight-bold h6agathe">
+                                <a href="formulaire.html" style="color:white;">Contact</a>
+                            </h6>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos campus</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" style="color:white;">La Lune</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">Mars</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">TZK-0000110001</a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white;">Proxima Centaury</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Remerciements</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+
+                            <a href="link"
+                                onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;">Complot
+                                Secret pour la pub</a>
+                        </li>
+                        <li>
+                            <a href="link"
+                                onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;">SpaceX</a>
+
+                        </li>
+                        <li>
+
+                            <a href="link"
+                                onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;">Sylvain
+                                Durif</a>
+
+                        </li>
+                        <li>
+
+                            <a href="link"
+                                onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;">Les
+                                codeurs de l'espaces</a>
+
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
             </div>
-                  <hr class="clearfix w-100 d-md-none">
+            <!-- Grid row -->
 
-                  <!-- Grid column -->
-                  <div class="col-md-2 mx-auto">
-  
-                      <!-- Links -->
-                      <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Liens</h5>
-  
-                      <ul class="list-unstyled">
-                          <li>
-                              <h6 class="text-uppercase font-weight-bold h6agathe">
-                                  <a href="index.html" style="color:white;">Accueil</a>
-                              </h6>
-                          </li>
-                          <li>
-                              <h6 class="text-uppercase font-weight-bold h6agathe">
-                                  <a href="article.html" style="color: white;">Articles</a>
-                              </h6>
-                          </li>
-                          <li>
-                              <h6 class="text-uppercase font-weight-bold h6agathe">
-                                  <a href="formulaire.html" style="color: white;">A Propos</a>
-                              </h6>
-                          </li>
-                          <li>
-                              <h6 class="text-uppercase font-weight-bold h6agathe">
-                                  <a href="formulaire.html" style="color:white;">Contact</a>
-                              </h6>
-                          </li>
-                      </ul>
-  
-                  </div>
-            <!-- Grid column -->
-    
-            <hr class="clearfix w-100 d-md-none">
-    
-            <!-- Grid column -->
-            <div class="col-md-3 mx-auto">
-    
-              <!-- Links -->
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Nos campus</h5>
-    
-              <ul class="list-unstyled">
-                <li>
-                        <a href="#" style="color:white;">La Lune</a>
-                </li>
-                <li>
-                        <a href="#" style="color:white;">Mars</a>
-                </li>
-                <li>
-                        <a href="#" style="color:white;">TZK-0000110001</a>
-                </li>
-                <li>
-                        <a href="#" style="color:white;">Proxima Centaury</a>
-                </li>
-              </ul>
-    
-            </div>
-            <!-- Grid column -->
-    
-            <hr class="clearfix w-100 d-md-none">
-    
-            <!-- Grid column -->
-            <div class="col-md-3 mx-auto">
-    
-              <!-- Links -->
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Remerciements</h5>
-    
-              <ul class="list-unstyled">
-                <li>
-
-                        <a href="link" onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;">Complot Secret pour la pub</a>
-                </li>
-                <li>
-                        <a href="link" onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;">SpaceX</a>
-
-                </li>
-                <li>
-
-                        <a href="link" onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;">Sylvain Durif</a>
-
-                </li>
-                <li>
-                   
-                        <a href="link" onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;">Les codeurs de l'espaces</a>
-
-                </li>
-              </ul>
-    
-            </div>
-            <!-- Grid column -->
-    
-          </div>
-          <!-- Grid row -->
-    
         </div>
         <!-- Footer Links -->
-    
+
         <hr>
-    
+
         <!-- Call to action -->
         <ul class="list-unstyled list-inline text-center py-2">
-          <li class="list-inline-item">
-            <h5 class="mb-1">Abonne toi !</h5>
-          </li>
-          <li class="list-inline-item">
-            <a href="#!"onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;" class="btn btn-danger btn-rounded">POUCE BLEU</a>
-          </li>
+            <li class="list-inline-item">
+                <h5 class="mb-1">Abonne toi !</h5>
+            </li>
+            <li class="list-inline-item">
+                <a href="#!"
+                    onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;"
+                    class="btn btn-danger btn-rounded">POUCE BLEU</a>
+            </li>
         </ul>
         <!-- Call to action -->
-    
+
         <hr>
-    
-    
+
+
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2019 Copyright:
-                <a href="#"> Wild Space School.com</a>
-                </div>
+            <a href="#"> Wild Space School.com</a>
+        </div>
         <!-- Copyright -->
-    
-    </footer>
-    <!-- Footer --><!-- /.container -->
-    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Retour en haut de page" data-toggle="tooltip" data-placement="left"><ion-icon name="arrow-dropup-circle" class="ion-icon-top"></ion-icon></a>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-            <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
-            <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-            <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-                <script src="javascript/script-ajouts.js"></script>
+    </footer>
+    <!-- Footer -->
+    <!-- /.container -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script>
+
+
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#scroll').fadeIn();
+                } else {
+                    $('#scroll').fadeOut();
+                }
+            });
+            $('#scroll').click(function () {
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+        });
+    </script>
 </body>
 
 </html>
