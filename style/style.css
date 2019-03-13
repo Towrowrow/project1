@@ -138,11 +138,11 @@ font-size: 24px;
   z-index: 2;
   } 
 
-  .navbar {
+  /* .navbar {
     background-color: #04021B;
     box-shadow: 0 .5rem .8rem rgba(0, 0, 0, .2);
     width: 100%;
-    }
+    } */
  .carou{
       width: 1024px;
       height: 451px;
