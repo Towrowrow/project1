@@ -351,3 +351,6 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
   }
+  ion-icon:hover{
+    transform: scale(1.6); }
+  }

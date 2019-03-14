@@ -20,7 +20,7 @@
 
     <header class="header">
         <!-- NAVBAR START -->
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar  navbar-expand-lg fixed-top ">
             <a class="navbar-brand" href="index.html">
                 <img src="images/logo-ok-texte2.png">
                 <span class="sr-only"></a>
@@ -28,7 +28,9 @@
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+ 
+
+<ion-icon name="menu" class="text-primary" size="large"></ion-icon>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,7 +53,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="article.html">ARTICLES</a>
                     </li>
-
+                    <li class="nav-item">
+                            <a class="nav-link" href="a-propos.html">A PROPOS</a>
+                        </li>
 
                 </ul>
                 <ul class="navbar-nav nav-flex-icons" style="color:blue">
@@ -98,8 +102,8 @@
                         <div class="mask rgba-black-light"></div>
                     </div>
                     <div class="carousel-caption">
-                        <h3 class="h3-r h3-responsive">Voyage</h3>
-                        <p class="p-remi">Quitte la Terre et rejoins nous</p>
+                        <h3 class="titi-r responsive">Voyage</h3>
+                        <p class="h5-r">Quitte la Terre et rejoins nous</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -111,7 +115,7 @@
                         <div class="mask rgba-black-strong"></div>
                     </div>
                     <div class="carousel-caption">
-                        <h3 class="h3-r h3-responsive">L'espace</h3>
+                        <h3 class="titi-r h3-responsive">L'espace</h3>
                         <p class="p-remi">les mains sur le clavier et la tête dans les étoiles</p>
                     </div>
                 </div>
@@ -124,7 +128,7 @@
                         <div class="mask rgba-black-slight"></div>
                     </div>
                     <div class="carousel-caption">
-                        <h3 class="h3-r h3-responsive">Découverte</h3>
+                        <h3 class="titi-r h3-responsive">Découverte</h3>
                         <p class="p-remi">Viens découvrir l'univers du code</p>
                     </div>
                 </div>
@@ -300,13 +304,13 @@
                         <div class="col-lg-6">
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a class="a-remi" href="#">Archives</a>
+                                    <a class="a-remi" href="#">Les plus populaires</a>
                                 </li>
                                 <li>
-                                    <a class="a-remi" href="#">Article précédent</a>
+                                    <a class="a-remi" href="#">Les plus récents</a>
                                 </li>
                                 <li>
-                                    <a class="a-remi" href="#">Article suivant</a>
+                                    <a class="a-remi" href="#">Article aléatoire</a>
                                 </li>
                             </ul>
                         </div>
@@ -314,7 +318,7 @@
                         <div class="col-lg-6 ">
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a class="a-remi" href="#">Réponse à théorie du complot</a>
+                                    <a class="a-remi" href="#">Démentie CFBS</a>
                                 </li>
                                 <li>
                                     <a class="a-remi" href="#">WCS terrestre</a>
@@ -373,7 +377,7 @@
             <div class="card-remi  xs-6 " style="width: max;">
                 <h3 class="h3-r card-header-remi ">Le covoiturage spatial</h3>
                 <img class="card-img-top"
-                    src="https://images.unsplash.com/photo-1499532744860-fb7526b66e7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1114&q=80"
+                    src="https://media.giphy.com/media/BRpMznCmYTiik/giphy.gif"
                     alt="Card image cap">
                 <div class="card-body">
 
@@ -418,17 +422,23 @@
     <footer class="page-footer font-small stylish-color-dark pt-4">
 
         <div class="row text-center d-flex justify-content-center pt-3 mb-2">
-            <div class="col-md-12 flex-center">
-                <ion-icon size="large" name="logo-facebook" ; style="color:white;"></ion-icon>
+        
+                <a class="nav-link" href="#">
+                <ion-icon name="logo-twitter" size="large"></ion-icon>
+            </a>
 
-                <ion-icon size="large" name="logo-instagram" ; style="color:white;"></ion-icon>
+            <a class="nav-link" href="#">
+                <ion-icon name="logo-facebook" size="large"></ion-icon>
+            </a>
 
-                <ion-icon size="large" name="logo-linkedin" ; style="color:white;"></ion-icon>
+            <a class="nav-link" href="#">
+                <ion-icon name="logo-linkedin" size="large"></ion-icon>
+            </a>
 
-                <ion-icon size="large" name="logo-twitter" ; style="color: white;"></ion-icon>
-
-                <ion-icon size="large" name="logo-youtube" ; style="color:white;"></ion-icon>
-            </div>
+            <a class="nav-link" href="#">
+                <ion-icon name="logo-youtube" size="large"></ion-icon>
+            </a>
+       
         </div>
         </div>
 
@@ -573,12 +583,12 @@
         <!-- Call to action -->
         <ul class="list-unstyled list-inline text-center py-2">
             <li class="list-inline-item">
-                <h5 class="mb-1">Abonne toi !</h5>
+                <h5 class="mb-1"></h5>
             </li>
             <li class="list-inline-item">
                 <a href="#!"
                     onclick="javascript:window.location.href='https://www.latlmes.com/arts/return-of-the-golden-age-of-comics-1'; return false;"
-                    class="btn btn-danger btn-rounded">POUCE BLEU</a>
+                    class="btn btn-danger btn-rounded">Abonne toi !</a>
             </li>
         </ul>
         <!-- Call to action -->
