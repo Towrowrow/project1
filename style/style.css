@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, .display-4, .display-3 {
 
 body {
   font-family: 'Space Mono', monospace;
+  padding-top: 70px; 
 }
 
 .nav-link {
@@ -57,7 +58,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.3;
+  opacity: 0.2;
   z-index: 1;
 }
 
@@ -353,4 +354,10 @@ p {
   }
   ion-icon:hover{
     transform: scale(1.6); }
-  }
+  
+
+.fond-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 .5rem .8rem rgba(0, 0, 0, .2);
+
+}
