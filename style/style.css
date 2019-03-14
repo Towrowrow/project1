@@ -248,7 +248,7 @@ p {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  background-image: linear-gradient(powderblue, white);
+  background-image: linear-gradient(blue, white);
   border-radius: 50%;
 }
 
@@ -324,5 +324,15 @@ p {
 
 .bg-clair {
   background-color: #ffffff;
-  background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+  background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
 }
+
+.row {
+  margin-right: 15px;
+  margin-left: 15px;
+  }
+
+  .height-vh {
+
+    height: 100vh;
+  }
