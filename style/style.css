@@ -361,3 +361,7 @@ p {
   box-shadow: 0 .5rem .8rem rgba(0, 0, 0, .2);
 
 }
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;}
