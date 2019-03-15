@@ -249,8 +249,7 @@ p {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  background-image: linear-gradient(blue, white);
-  border-radius: 50%;
+
 }
 
 .page-footer {
